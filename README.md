@@ -20,7 +20,7 @@ The study aims to analyze **speedup, scalability, and performance** across these
 - **SAI  CHAKRITH - CB.AI.U4AID23143** – Convolution Engine, Performance Measurement, Main File (Serial)  
 - **JEIESH J SCB.AI.U4AID23116** – Implemented Filters in OpenMP  
 - **JEEVAKAMAL K R - CB.AI.U4AID23115** – Convolution Engine, Performance Measurement, Main File (OpenMP)  
-- **SurSURIYA DHARSAUN - CB.AI.U4AID23144** – CUDA Implementation (Filters & Convolution)  
+- **SURIYA DHARSAUN - CB.AI.U4AID23144** – CUDA Implementation (Filters & Convolution)  
 
 ---
 
