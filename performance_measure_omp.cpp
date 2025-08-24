@@ -92,15 +92,15 @@ size_t PerformanceMeasurementOMP::getMemoryUsage() {
 
 double PerformanceMeasurementOMP::calculateMSE(const cv::Mat& img1, const cv::Mat& img2) {
     cv::Mat diff;
-    cv::absdiff(img1, img2, diff);
-    diff.convertTo(diff, CV_64F);
-    diff = diff.mul(diff);
-    cv::Scalar mse = cv::sum(diff);
-    double total_mse = mse[0] + mse[1] + mse[2];
+    cv::absdiff(img1, img2, diff); //calculates absolute difference between the images 
+    diff.convertTo(diff, CV_64F);// 64 bit floating point
+    diff = diff.mul(diff); // squares the difference 
+    cv::Scalar mse = cv::sum(diff); // sums the squared difference 
+    double total_mse = mse[0] + mse[1] + mse[2]; // adds the sum of mse of all the channel
     return total_mse / (img1.rows * img1.cols * img1.channels());
 }
 
-double PerformanceMeasurementOMP::calculatePSNR(const cv::Mat& img1, const cv::Mat& img2) {
+double PerformanceMeasurementOMP::calculatePSNR(const cv::Mat& img1, const cv::Mat& img2) { //Peak Signal-to-Noise Ratio
     double mse = calculateMSE(img1, img2);
     if (mse < 1e-10) {
         return 100.0;
@@ -127,7 +127,7 @@ bool PerformanceMeasurementOMP::validateResult(const cv::Mat& result, int expect
     }
     
     std::cout << "Validation passed: " << result.cols << "x" << result.rows 
-              << " with " << result.channels() << " channels" << std::endl;
+              << " with " << result.channels() << " channels" << std::endl; // returns number of channel
     return true;
 }
 
@@ -141,7 +141,7 @@ void PerformanceMeasurementOMP::analyzeThreadUtilization() {
         
         #pragma omp critical
         {
-            std::cout << "Thread " << thread_id << " of " << num_threads << " is active" << std::endl;
+            std::cout << "Thread " << thread_id << " of " << num_threads << " is active" << std::endl; // tells which thread is active.
         }
     }
     
@@ -156,11 +156,11 @@ void PerformanceMeasurementOMP::printThreadInfo() {
     std::cout << "Maximum threads available: " << omp_get_max_threads() << std::endl;
     std::cout << "Number of processors: " << omp_get_num_procs() << std::endl;
     
-    #pragma omp parallel
+    #pragma omp parallel // enables multi thread
     {
-        #pragma omp single
+        #pragma omp single // only one thread
         {
-            std::cout << "Threads in current parallel region: " << omp_get_num_threads() << std::endl;
+            std::cout << "Threads in current parallel region: " << omp_get_num_threads() << std::endl; // this will return the total number of threads in the current parallel region.
         }
     }
 }
