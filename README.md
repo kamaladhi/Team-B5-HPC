@@ -31,4 +31,4 @@ The study aims to analyze **speedup, scalability, and performance** across these
 - **Performance benchmarking** across Serial, OpenMP, and CUDA implementations  
 - **Comparative analysis** of CPU vs GPU performance  
 
----
+---==
