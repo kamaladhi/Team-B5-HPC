@@ -1,0 +1,701 @@
+ImageName,FilterName,ProcessingTime_ms,Success
+buildings00,Gaussian Blur,24,TRUE
+buildings01,Gaussian Blur,18,TRUE
+buildings02,Gaussian Blur,18,TRUE
+buildings03,Gaussian Blur,21,TRUE
+buildings04,Gaussian Blur,28,TRUE
+buildings05,Gaussian Blur,24,TRUE
+buildings06,Gaussian Blur,21,TRUE
+buildings07,Gaussian Blur,20,TRUE
+buildings08,Gaussian Blur,21,TRUE
+buildings09,Gaussian Blur,20,TRUE
+buildings10,Gaussian Blur,20,TRUE
+buildings11,Gaussian Blur,26,TRUE
+buildings12,Gaussian Blur,26,TRUE
+buildings13,Gaussian Blur,38,TRUE
+buildings14,Gaussian Blur,35,TRUE
+buildings15,Gaussian Blur,37,TRUE
+buildings16,Gaussian Blur,18,TRUE
+buildings17,Gaussian Blur,30,TRUE
+buildings18,Gaussian Blur,19,TRUE
+buildings19,Gaussian Blur,37,TRUE
+buildings20,Gaussian Blur,20,TRUE
+buildings21,Gaussian Blur,20,TRUE
+buildings22,Gaussian Blur,19,TRUE
+buildings23,Gaussian Blur,27,TRUE
+buildings24,Gaussian Blur,24,TRUE
+buildings25,Gaussian Blur,20,TRUE
+buildings26,Gaussian Blur,20,TRUE
+buildings27,Gaussian Blur,25,TRUE
+buildings28,Gaussian Blur,22,TRUE
+buildings29,Gaussian Blur,19,TRUE
+buildings30,Gaussian Blur,18,TRUE
+buildings31,Gaussian Blur,18,TRUE
+buildings32,Gaussian Blur,20,TRUE
+buildings33,Gaussian Blur,26,TRUE
+buildings34,Gaussian Blur,54,TRUE
+buildings35,Gaussian Blur,34,TRUE
+buildings36,Gaussian Blur,18,TRUE
+buildings37,Gaussian Blur,18,TRUE
+buildings38,Gaussian Blur,18,TRUE
+buildings39,Gaussian Blur,20,TRUE
+buildings40,Gaussian Blur,20,TRUE
+buildings41,Gaussian Blur,21,TRUE
+buildings42,Gaussian Blur,20,TRUE
+buildings43,Gaussian Blur,19,TRUE
+buildings44,Gaussian Blur,23,TRUE
+buildings45,Gaussian Blur,18,TRUE
+buildings46,Gaussian Blur,20,TRUE
+buildings47,Gaussian Blur,19,TRUE
+buildings48,Gaussian Blur,23,TRUE
+buildings49,Gaussian Blur,18,TRUE
+buildings50,Gaussian Blur,21,TRUE
+buildings51,Gaussian Blur,27,TRUE
+buildings52,Gaussian Blur,20,TRUE
+buildings53,Gaussian Blur,20,TRUE
+buildings54,Gaussian Blur,22,TRUE
+buildings55,Gaussian Blur,21,TRUE
+buildings56,Gaussian Blur,21,TRUE
+buildings57,Gaussian Blur,21,TRUE
+buildings58,Gaussian Blur,29,TRUE
+buildings59,Gaussian Blur,37,TRUE
+buildings60,Gaussian Blur,21,TRUE
+buildings61,Gaussian Blur,17,TRUE
+buildings62,Gaussian Blur,20,TRUE
+buildings63,Gaussian Blur,20,TRUE
+buildings64,Gaussian Blur,21,TRUE
+buildings65,Gaussian Blur,20,TRUE
+buildings66,Gaussian Blur,20,TRUE
+buildings67,Gaussian Blur,19,TRUE
+buildings68,Gaussian Blur,18,TRUE
+buildings69,Gaussian Blur,19,TRUE
+buildings70,Gaussian Blur,18,TRUE
+buildings71,Gaussian Blur,21,TRUE
+buildings72,Gaussian Blur,20,TRUE
+buildings73,Gaussian Blur,20,TRUE
+buildings74,Gaussian Blur,18,TRUE
+buildings75,Gaussian Blur,24,TRUE
+buildings76,Gaussian Blur,21,TRUE
+buildings77,Gaussian Blur,30,TRUE
+buildings78,Gaussian Blur,20,TRUE
+buildings79,Gaussian Blur,27,TRUE
+buildings80,Gaussian Blur,20,TRUE
+buildings81,Gaussian Blur,24,TRUE
+buildings82,Gaussian Blur,34,TRUE
+buildings83,Gaussian Blur,37,TRUE
+buildings84,Gaussian Blur,21,TRUE
+buildings85,Gaussian Blur,21,TRUE
+buildings86,Gaussian Blur,21,TRUE
+buildings87,Gaussian Blur,22,TRUE
+buildings88,Gaussian Blur,31,TRUE
+buildings89,Gaussian Blur,17,TRUE
+buildings90,Gaussian Blur,18,TRUE
+buildings91,Gaussian Blur,20,TRUE
+buildings92,Gaussian Blur,19,TRUE
+buildings93,Gaussian Blur,20,TRUE
+buildings94,Gaussian Blur,20,TRUE
+buildings95,Gaussian Blur,19,TRUE
+buildings96,Gaussian Blur,18,TRUE
+buildings97,Gaussian Blur,22,TRUE
+buildings98,Gaussian Blur,21,TRUE
+buildings99,Gaussian Blur,19,TRUE
+buildings00,Sobel X,13,TRUE
+buildings01,Sobel X,13,TRUE
+buildings02,Sobel X,13,TRUE
+buildings03,Sobel X,23,TRUE
+buildings04,Sobel X,14,TRUE
+buildings05,Sobel X,12,TRUE
+buildings06,Sobel X,13,TRUE
+buildings07,Sobel X,19,TRUE
+buildings08,Sobel X,13,TRUE
+buildings09,Sobel X,13,TRUE
+buildings10,Sobel X,13,TRUE
+buildings11,Sobel X,13,TRUE
+buildings12,Sobel X,12,TRUE
+buildings13,Sobel X,13,TRUE
+buildings14,Sobel X,15,TRUE
+buildings15,Sobel X,13,TRUE
+buildings16,Sobel X,19,TRUE
+buildings17,Sobel X,14,TRUE
+buildings18,Sobel X,16,TRUE
+buildings19,Sobel X,13,TRUE
+buildings20,Sobel X,21,TRUE
+buildings21,Sobel X,18,TRUE
+buildings22,Sobel X,17,TRUE
+buildings23,Sobel X,16,TRUE
+buildings24,Sobel X,15,TRUE
+buildings25,Sobel X,17,TRUE
+buildings26,Sobel X,13,TRUE
+buildings27,Sobel X,12,TRUE
+buildings28,Sobel X,14,TRUE
+buildings29,Sobel X,12,TRUE
+buildings30,Sobel X,19,TRUE
+buildings31,Sobel X,12,TRUE
+buildings32,Sobel X,13,TRUE
+buildings33,Sobel X,13,TRUE
+buildings34,Sobel X,12,TRUE
+buildings35,Sobel X,20,TRUE
+buildings36,Sobel X,13,TRUE
+buildings37,Sobel X,12,TRUE
+buildings38,Sobel X,14,TRUE
+buildings39,Sobel X,13,TRUE
+buildings40,Sobel X,14,TRUE
+buildings41,Sobel X,20,TRUE
+buildings42,Sobel X,12,TRUE
+buildings43,Sobel X,15,TRUE
+buildings44,Sobel X,16,TRUE
+buildings45,Sobel X,20,TRUE
+buildings46,Sobel X,14,TRUE
+buildings47,Sobel X,13,TRUE
+buildings48,Sobel X,14,TRUE
+buildings49,Sobel X,14,TRUE
+buildings50,Sobel X,19,TRUE
+buildings51,Sobel X,14,TRUE
+buildings52,Sobel X,13,TRUE
+buildings53,Sobel X,12,TRUE
+buildings54,Sobel X,14,TRUE
+buildings55,Sobel X,17,TRUE
+buildings56,Sobel X,18,TRUE
+buildings57,Sobel X,13,TRUE
+buildings58,Sobel X,12,TRUE
+buildings59,Sobel X,15,TRUE
+buildings60,Sobel X,14,TRUE
+buildings61,Sobel X,11,TRUE
+buildings62,Sobel X,19,TRUE
+buildings63,Sobel X,12,TRUE
+buildings64,Sobel X,14,TRUE
+buildings65,Sobel X,18,TRUE
+buildings66,Sobel X,13,TRUE
+buildings67,Sobel X,12,TRUE
+buildings68,Sobel X,20,TRUE
+buildings69,Sobel X,12,TRUE
+buildings70,Sobel X,16,TRUE
+buildings71,Sobel X,14,TRUE
+buildings72,Sobel X,11,TRUE
+buildings73,Sobel X,11,TRUE
+buildings74,Sobel X,13,TRUE
+buildings75,Sobel X,15,TRUE
+buildings76,Sobel X,17,TRUE
+buildings77,Sobel X,14,TRUE
+buildings78,Sobel X,13,TRUE
+buildings79,Sobel X,13,TRUE
+buildings80,Sobel X,18,TRUE
+buildings81,Sobel X,13,TRUE
+buildings82,Sobel X,18,TRUE
+buildings83,Sobel X,14,TRUE
+buildings84,Sobel X,20,TRUE
+buildings85,Sobel X,22,TRUE
+buildings86,Sobel X,17,TRUE
+buildings87,Sobel X,22,TRUE
+buildings88,Sobel X,16,TRUE
+buildings89,Sobel X,19,TRUE
+buildings90,Sobel X,13,TRUE
+buildings91,Sobel X,11,TRUE
+buildings92,Sobel X,16,TRUE
+buildings93,Sobel X,14,TRUE
+buildings94,Sobel X,13,TRUE
+buildings95,Sobel X,18,TRUE
+buildings96,Sobel X,15,TRUE
+buildings97,Sobel X,13,TRUE
+buildings98,Sobel X,13,TRUE
+buildings99,Sobel X,15,TRUE
+buildings00,Sobel Y,5,TRUE
+buildings01,Sobel Y,3,TRUE
+buildings02,Sobel Y,2,TRUE
+buildings03,Sobel Y,2,TRUE
+buildings04,Sobel Y,2,TRUE
+buildings05,Sobel Y,2,TRUE
+buildings06,Sobel Y,2,TRUE
+buildings07,Sobel Y,2,TRUE
+buildings08,Sobel Y,2,TRUE
+buildings09,Sobel Y,2,TRUE
+buildings10,Sobel Y,2,TRUE
+buildings11,Sobel Y,2,TRUE
+buildings12,Sobel Y,2,TRUE
+buildings13,Sobel Y,2,TRUE
+buildings14,Sobel Y,2,TRUE
+buildings15,Sobel Y,2,TRUE
+buildings16,Sobel Y,2,TRUE
+buildings17,Sobel Y,2,TRUE
+buildings18,Sobel Y,2,TRUE
+buildings19,Sobel Y,2,TRUE
+buildings20,Sobel Y,2,TRUE
+buildings21,Sobel Y,2,TRUE
+buildings22,Sobel Y,2,TRUE
+buildings23,Sobel Y,2,TRUE
+buildings24,Sobel Y,2,TRUE
+buildings25,Sobel Y,2,TRUE
+buildings26,Sobel Y,2,TRUE
+buildings27,Sobel Y,2,TRUE
+buildings28,Sobel Y,2,TRUE
+buildings29,Sobel Y,2,TRUE
+buildings30,Sobel Y,2,TRUE
+buildings31,Sobel Y,2,TRUE
+buildings32,Sobel Y,2,TRUE
+buildings33,Sobel Y,2,TRUE
+buildings34,Sobel Y,2,TRUE
+buildings35,Sobel Y,2,TRUE
+buildings36,Sobel Y,2,TRUE
+buildings37,Sobel Y,2,TRUE
+buildings38,Sobel Y,2,TRUE
+buildings39,Sobel Y,2,TRUE
+buildings40,Sobel Y,3,TRUE
+buildings41,Sobel Y,2,TRUE
+buildings42,Sobel Y,3,TRUE
+buildings43,Sobel Y,3,TRUE
+buildings44,Sobel Y,2,TRUE
+buildings45,Sobel Y,2,TRUE
+buildings46,Sobel Y,2,TRUE
+buildings47,Sobel Y,2,TRUE
+buildings48,Sobel Y,2,TRUE
+buildings49,Sobel Y,2,TRUE
+buildings50,Sobel Y,2,TRUE
+buildings51,Sobel Y,2,TRUE
+buildings52,Sobel Y,2,TRUE
+buildings53,Sobel Y,2,TRUE
+buildings54,Sobel Y,2,TRUE
+buildings55,Sobel Y,2,TRUE
+buildings56,Sobel Y,2,TRUE
+buildings57,Sobel Y,2,TRUE
+buildings58,Sobel Y,2,TRUE
+buildings59,Sobel Y,3,TRUE
+buildings60,Sobel Y,2,TRUE
+buildings61,Sobel Y,3,TRUE
+buildings62,Sobel Y,2,TRUE
+buildings63,Sobel Y,2,TRUE
+buildings64,Sobel Y,2,TRUE
+buildings65,Sobel Y,2,TRUE
+buildings66,Sobel Y,2,TRUE
+buildings67,Sobel Y,2,TRUE
+buildings68,Sobel Y,2,TRUE
+buildings69,Sobel Y,2,TRUE
+buildings70,Sobel Y,2,TRUE
+buildings71,Sobel Y,2,TRUE
+buildings72,Sobel Y,2,TRUE
+buildings73,Sobel Y,2,TRUE
+buildings74,Sobel Y,2,TRUE
+buildings75,Sobel Y,2,TRUE
+buildings76,Sobel Y,2,TRUE
+buildings77,Sobel Y,2,TRUE
+buildings78,Sobel Y,2,TRUE
+buildings79,Sobel Y,2,TRUE
+buildings80,Sobel Y,2,TRUE
+buildings81,Sobel Y,2,TRUE
+buildings82,Sobel Y,2,TRUE
+buildings83,Sobel Y,2,TRUE
+buildings84,Sobel Y,2,TRUE
+buildings85,Sobel Y,2,TRUE
+buildings86,Sobel Y,2,TRUE
+buildings87,Sobel Y,2,TRUE
+buildings88,Sobel Y,2,TRUE
+buildings89,Sobel Y,2,TRUE
+buildings90,Sobel Y,2,TRUE
+buildings91,Sobel Y,2,TRUE
+buildings92,Sobel Y,2,TRUE
+buildings93,Sobel Y,2,TRUE
+buildings94,Sobel Y,2,TRUE
+buildings95,Sobel Y,2,TRUE
+buildings96,Sobel Y,2,TRUE
+buildings97,Sobel Y,2,TRUE
+buildings98,Sobel Y,3,TRUE
+buildings99,Sobel Y,2,TRUE
+buildings00,Sobel Magnitude,17,TRUE
+buildings01,Sobel Magnitude,14,TRUE
+buildings02,Sobel Magnitude,18,TRUE
+buildings03,Sobel Magnitude,12,TRUE
+buildings04,Sobel Magnitude,13,TRUE
+buildings05,Sobel Magnitude,18,TRUE
+buildings06,Sobel Magnitude,13,TRUE
+buildings07,Sobel Magnitude,13,TRUE
+buildings08,Sobel Magnitude,13,TRUE
+buildings09,Sobel Magnitude,14,TRUE
+buildings10,Sobel Magnitude,14,TRUE
+buildings11,Sobel Magnitude,14,TRUE
+buildings12,Sobel Magnitude,14,TRUE
+buildings13,Sobel Magnitude,14,TRUE
+buildings14,Sobel Magnitude,13,TRUE
+buildings15,Sobel Magnitude,14,TRUE
+buildings16,Sobel Magnitude,13,TRUE
+buildings17,Sobel Magnitude,15,TRUE
+buildings18,Sobel Magnitude,14,TRUE
+buildings19,Sobel Magnitude,15,TRUE
+buildings20,Sobel Magnitude,20,TRUE
+buildings21,Sobel Magnitude,14,TRUE
+buildings22,Sobel Magnitude,18,TRUE
+buildings23,Sobel Magnitude,12,TRUE
+buildings24,Sobel Magnitude,15,TRUE
+buildings25,Sobel Magnitude,23,TRUE
+buildings26,Sobel Magnitude,21,TRUE
+buildings27,Sobel Magnitude,17,TRUE
+buildings28,Sobel Magnitude,19,TRUE
+buildings29,Sobel Magnitude,17,TRUE
+buildings30,Sobel Magnitude,17,TRUE
+buildings31,Sobel Magnitude,12,TRUE
+buildings32,Sobel Magnitude,13,TRUE
+buildings33,Sobel Magnitude,13,TRUE
+buildings34,Sobel Magnitude,13,TRUE
+buildings35,Sobel Magnitude,14,TRUE
+buildings36,Sobel Magnitude,13,TRUE
+buildings37,Sobel Magnitude,14,TRUE
+buildings38,Sobel Magnitude,12,TRUE
+buildings39,Sobel Magnitude,11,TRUE
+buildings40,Sobel Magnitude,13,TRUE
+buildings41,Sobel Magnitude,19,TRUE
+buildings42,Sobel Magnitude,14,TRUE
+buildings43,Sobel Magnitude,14,TRUE
+buildings44,Sobel Magnitude,14,TRUE
+buildings45,Sobel Magnitude,13,TRUE
+buildings46,Sobel Magnitude,13,TRUE
+buildings47,Sobel Magnitude,13,TRUE
+buildings48,Sobel Magnitude,15,TRUE
+buildings49,Sobel Magnitude,12,TRUE
+buildings50,Sobel Magnitude,23,TRUE
+buildings51,Sobel Magnitude,14,TRUE
+buildings52,Sobel Magnitude,13,TRUE
+buildings53,Sobel Magnitude,13,TRUE
+buildings54,Sobel Magnitude,12,TRUE
+buildings55,Sobel Magnitude,13,TRUE
+buildings56,Sobel Magnitude,13,TRUE
+buildings57,Sobel Magnitude,15,TRUE
+buildings58,Sobel Magnitude,13,TRUE
+buildings59,Sobel Magnitude,19,TRUE
+buildings60,Sobel Magnitude,19,TRUE
+buildings61,Sobel Magnitude,12,TRUE
+buildings62,Sobel Magnitude,13,TRUE
+buildings63,Sobel Magnitude,12,TRUE
+buildings64,Sobel Magnitude,13,TRUE
+buildings65,Sobel Magnitude,13,TRUE
+buildings66,Sobel Magnitude,13,TRUE
+buildings67,Sobel Magnitude,13,TRUE
+buildings68,Sobel Magnitude,18,TRUE
+buildings69,Sobel Magnitude,12,TRUE
+buildings70,Sobel Magnitude,13,TRUE
+buildings71,Sobel Magnitude,13,TRUE
+buildings72,Sobel Magnitude,13,TRUE
+buildings73,Sobel Magnitude,18,TRUE
+buildings74,Sobel Magnitude,13,TRUE
+buildings75,Sobel Magnitude,12,TRUE
+buildings76,Sobel Magnitude,12,TRUE
+buildings77,Sobel Magnitude,12,TRUE
+buildings78,Sobel Magnitude,12,TRUE
+buildings79,Sobel Magnitude,13,TRUE
+buildings80,Sobel Magnitude,14,TRUE
+buildings81,Sobel Magnitude,18,TRUE
+buildings82,Sobel Magnitude,24,TRUE
+buildings83,Sobel Magnitude,15,TRUE
+buildings84,Sobel Magnitude,22,TRUE
+buildings85,Sobel Magnitude,14,TRUE
+buildings86,Sobel Magnitude,21,TRUE
+buildings87,Sobel Magnitude,15,TRUE
+buildings88,Sobel Magnitude,14,TRUE
+buildings89,Sobel Magnitude,15,TRUE
+buildings90,Sobel Magnitude,13,TRUE
+buildings91,Sobel Magnitude,15,TRUE
+buildings92,Sobel Magnitude,17,TRUE
+buildings93,Sobel Magnitude,12,TRUE
+buildings94,Sobel Magnitude,12,TRUE
+buildings95,Sobel Magnitude,19,TRUE
+buildings96,Sobel Magnitude,11,TRUE
+buildings97,Sobel Magnitude,11,TRUE
+buildings98,Sobel Magnitude,13,TRUE
+buildings99,Sobel Magnitude,13,TRUE
+buildings00,Sharpening,7,TRUE
+buildings01,Sharpening,9,TRUE
+buildings02,Sharpening,8,TRUE
+buildings03,Sharpening,7,TRUE
+buildings04,Sharpening,7,TRUE
+buildings05,Sharpening,8,TRUE
+buildings06,Sharpening,7,TRUE
+buildings07,Sharpening,7,TRUE
+buildings08,Sharpening,9,TRUE
+buildings09,Sharpening,8,TRUE
+buildings10,Sharpening,8,TRUE
+buildings11,Sharpening,7,TRUE
+buildings12,Sharpening,7,TRUE
+buildings13,Sharpening,9,TRUE
+buildings14,Sharpening,7,TRUE
+buildings15,Sharpening,7,TRUE
+buildings16,Sharpening,9,TRUE
+buildings17,Sharpening,7,TRUE
+buildings18,Sharpening,7,TRUE
+buildings19,Sharpening,9,TRUE
+buildings20,Sharpening,8,TRUE
+buildings21,Sharpening,8,TRUE
+buildings22,Sharpening,8,TRUE
+buildings23,Sharpening,7,TRUE
+buildings24,Sharpening,7,TRUE
+buildings25,Sharpening,7,TRUE
+buildings26,Sharpening,7,TRUE
+buildings27,Sharpening,7,TRUE
+buildings28,Sharpening,8,TRUE
+buildings29,Sharpening,8,TRUE
+buildings30,Sharpening,7,TRUE
+buildings31,Sharpening,8,TRUE
+buildings32,Sharpening,8,TRUE
+buildings33,Sharpening,11,TRUE
+buildings34,Sharpening,7,TRUE
+buildings35,Sharpening,8,TRUE
+buildings36,Sharpening,8,TRUE
+buildings37,Sharpening,7,TRUE
+buildings38,Sharpening,8,TRUE
+buildings39,Sharpening,8,TRUE
+buildings40,Sharpening,8,TRUE
+buildings41,Sharpening,8,TRUE
+buildings42,Sharpening,8,TRUE
+buildings43,Sharpening,10,TRUE
+buildings44,Sharpening,7,TRUE
+buildings45,Sharpening,7,TRUE
+buildings46,Sharpening,8,TRUE
+buildings47,Sharpening,7,TRUE
+buildings48,Sharpening,11,TRUE
+buildings49,Sharpening,7,TRUE
+buildings50,Sharpening,9,TRUE
+buildings51,Sharpening,8,TRUE
+buildings52,Sharpening,8,TRUE
+buildings53,Sharpening,7,TRUE
+buildings54,Sharpening,8,TRUE
+buildings55,Sharpening,8,TRUE
+buildings56,Sharpening,7,TRUE
+buildings57,Sharpening,9,TRUE
+buildings58,Sharpening,8,TRUE
+buildings59,Sharpening,7,TRUE
+buildings60,Sharpening,7,TRUE
+buildings61,Sharpening,7,TRUE
+buildings62,Sharpening,7,TRUE
+buildings63,Sharpening,7,TRUE
+buildings64,Sharpening,13,TRUE
+buildings65,Sharpening,11,TRUE
+buildings66,Sharpening,11,TRUE
+buildings67,Sharpening,7,TRUE
+buildings68,Sharpening,8,TRUE
+buildings69,Sharpening,7,TRUE
+buildings70,Sharpening,7,TRUE
+buildings71,Sharpening,8,TRUE
+buildings72,Sharpening,9,TRUE
+buildings73,Sharpening,9,TRUE
+buildings74,Sharpening,8,TRUE
+buildings75,Sharpening,14,TRUE
+buildings76,Sharpening,12,TRUE
+buildings77,Sharpening,11,TRUE
+buildings78,Sharpening,12,TRUE
+buildings79,Sharpening,10,TRUE
+buildings80,Sharpening,14,TRUE
+buildings81,Sharpening,9,TRUE
+buildings82,Sharpening,10,TRUE
+buildings83,Sharpening,10,TRUE
+buildings84,Sharpening,11,TRUE
+buildings85,Sharpening,11,TRUE
+buildings86,Sharpening,7,TRUE
+buildings87,Sharpening,9,TRUE
+buildings88,Sharpening,11,TRUE
+buildings89,Sharpening,7,TRUE
+buildings90,Sharpening,9,TRUE
+buildings91,Sharpening,8,TRUE
+buildings92,Sharpening,7,TRUE
+buildings93,Sharpening,12,TRUE
+buildings94,Sharpening,8,TRUE
+buildings95,Sharpening,7,TRUE
+buildings96,Sharpening,7,TRUE
+buildings97,Sharpening,7,TRUE
+buildings98,Sharpening,10,TRUE
+buildings99,Sharpening,7,TRUE
+buildings00,Laplacian,7,TRUE
+buildings01,Laplacian,7,TRUE
+buildings02,Laplacian,8,TRUE
+buildings03,Laplacian,12,TRUE
+buildings04,Laplacian,9,TRUE
+buildings05,Laplacian,7,TRUE
+buildings06,Laplacian,8,TRUE
+buildings07,Laplacian,9,TRUE
+buildings08,Laplacian,7,TRUE
+buildings09,Laplacian,7,TRUE
+buildings10,Laplacian,7,TRUE
+buildings11,Laplacian,7,TRUE
+buildings12,Laplacian,6,TRUE
+buildings13,Laplacian,7,TRUE
+buildings14,Laplacian,8,TRUE
+buildings15,Laplacian,7,TRUE
+buildings16,Laplacian,7,TRUE
+buildings17,Laplacian,7,TRUE
+buildings18,Laplacian,8,TRUE
+buildings19,Laplacian,8,TRUE
+buildings20,Laplacian,7,TRUE
+buildings21,Laplacian,7,TRUE
+buildings22,Laplacian,9,TRUE
+buildings23,Laplacian,7,TRUE
+buildings24,Laplacian,8,TRUE
+buildings25,Laplacian,8,TRUE
+buildings26,Laplacian,7,TRUE
+buildings27,Laplacian,8,TRUE
+buildings28,Laplacian,7,TRUE
+buildings29,Laplacian,7,TRUE
+buildings30,Laplacian,15,TRUE
+buildings31,Laplacian,8,TRUE
+buildings32,Laplacian,8,TRUE
+buildings33,Laplacian,7,TRUE
+buildings34,Laplacian,7,TRUE
+buildings35,Laplacian,8,TRUE
+buildings36,Laplacian,9,TRUE
+buildings37,Laplacian,7,TRUE
+buildings38,Laplacian,7,TRUE
+buildings39,Laplacian,7,TRUE
+buildings40,Laplacian,8,TRUE
+buildings41,Laplacian,8,TRUE
+buildings42,Laplacian,10,TRUE
+buildings43,Laplacian,8,TRUE
+buildings44,Laplacian,7,TRUE
+buildings45,Laplacian,9,TRUE
+buildings46,Laplacian,7,TRUE
+buildings47,Laplacian,8,TRUE
+buildings48,Laplacian,7,TRUE
+buildings49,Laplacian,8,TRUE
+buildings50,Laplacian,12,TRUE
+buildings51,Laplacian,10,TRUE
+buildings52,Laplacian,11,TRUE
+buildings53,Laplacian,7,TRUE
+buildings54,Laplacian,7,TRUE
+buildings55,Laplacian,7,TRUE
+buildings56,Laplacian,8,TRUE
+buildings57,Laplacian,10,TRUE
+buildings58,Laplacian,8,TRUE
+buildings59,Laplacian,9,TRUE
+buildings60,Laplacian,12,TRUE
+buildings61,Laplacian,8,TRUE
+buildings62,Laplacian,8,TRUE
+buildings63,Laplacian,11,TRUE
+buildings64,Laplacian,7,TRUE
+buildings65,Laplacian,7,TRUE
+buildings66,Laplacian,7,TRUE
+buildings67,Laplacian,6,TRUE
+buildings68,Laplacian,7,TRUE
+buildings69,Laplacian,7,TRUE
+buildings70,Laplacian,7,TRUE
+buildings71,Laplacian,7,TRUE
+buildings72,Laplacian,9,TRUE
+buildings73,Laplacian,11,TRUE
+buildings74,Laplacian,8,TRUE
+buildings75,Laplacian,9,TRUE
+buildings76,Laplacian,10,TRUE
+buildings77,Laplacian,13,TRUE
+buildings78,Laplacian,8,TRUE
+buildings79,Laplacian,14,TRUE
+buildings80,Laplacian,8,TRUE
+buildings81,Laplacian,11,TRUE
+buildings82,Laplacian,11,TRUE
+buildings83,Laplacian,14,TRUE
+buildings84,Laplacian,10,TRUE
+buildings85,Laplacian,10,TRUE
+buildings86,Laplacian,11,TRUE
+buildings87,Laplacian,7,TRUE
+buildings88,Laplacian,9,TRUE
+buildings89,Laplacian,7,TRUE
+buildings90,Laplacian,7,TRUE
+buildings91,Laplacian,9,TRUE
+buildings92,Laplacian,7,TRUE
+buildings93,Laplacian,7,TRUE
+buildings94,Laplacian,12,TRUE
+buildings95,Laplacian,10,TRUE
+buildings96,Laplacian,8,TRUE
+buildings97,Laplacian,7,TRUE
+buildings98,Laplacian,7,TRUE
+buildings99,Laplacian,7,TRUE
+buildings00,Edge Detection,3,TRUE
+buildings01,Edge Detection,3,TRUE
+buildings02,Edge Detection,3,TRUE
+buildings03,Edge Detection,3,TRUE
+buildings04,Edge Detection,2,TRUE
+buildings05,Edge Detection,3,TRUE
+buildings06,Edge Detection,2,TRUE
+buildings07,Edge Detection,2,TRUE
+buildings08,Edge Detection,3,TRUE
+buildings09,Edge Detection,3,TRUE
+buildings10,Edge Detection,2,TRUE
+buildings11,Edge Detection,2,TRUE
+buildings12,Edge Detection,3,TRUE
+buildings13,Edge Detection,2,TRUE
+buildings14,Edge Detection,2,TRUE
+buildings15,Edge Detection,2,TRUE
+buildings16,Edge Detection,2,TRUE
+buildings17,Edge Detection,2,TRUE
+buildings18,Edge Detection,2,TRUE
+buildings19,Edge Detection,3,TRUE
+buildings20,Edge Detection,3,TRUE
+buildings21,Edge Detection,3,TRUE
+buildings22,Edge Detection,2,TRUE
+buildings23,Edge Detection,2,TRUE
+buildings24,Edge Detection,2,TRUE
+buildings25,Edge Detection,2,TRUE
+buildings26,Edge Detection,2,TRUE
+buildings27,Edge Detection,2,TRUE
+buildings28,Edge Detection,2,TRUE
+buildings29,Edge Detection,2,TRUE
+buildings30,Edge Detection,2,TRUE
+buildings31,Edge Detection,2,TRUE
+buildings32,Edge Detection,2,TRUE
+buildings33,Edge Detection,2,TRUE
+buildings34,Edge Detection,2,TRUE
+buildings35,Edge Detection,2,TRUE
+buildings36,Edge Detection,2,TRUE
+buildings37,Edge Detection,2,TRUE
+buildings38,Edge Detection,3,TRUE
+buildings39,Edge Detection,2,TRUE
+buildings40,Edge Detection,2,TRUE
+buildings41,Edge Detection,2,TRUE
+buildings42,Edge Detection,2,TRUE
+buildings43,Edge Detection,2,TRUE
+buildings44,Edge Detection,2,TRUE
+buildings45,Edge Detection,2,TRUE
+buildings46,Edge Detection,2,TRUE
+buildings47,Edge Detection,2,TRUE
+buildings48,Edge Detection,2,TRUE
+buildings49,Edge Detection,2,TRUE
+buildings50,Edge Detection,2,TRUE
+buildings51,Edge Detection,2,TRUE
+buildings52,Edge Detection,2,TRUE
+buildings53,Edge Detection,2,TRUE
+buildings54,Edge Detection,2,TRUE
+buildings55,Edge Detection,3,TRUE
+buildings56,Edge Detection,3,TRUE
+buildings57,Edge Detection,2,TRUE
+buildings58,Edge Detection,2,TRUE
+buildings59,Edge Detection,2,TRUE
+buildings60,Edge Detection,2,TRUE
+buildings61,Edge Detection,2,TRUE
+buildings62,Edge Detection,2,TRUE
+buildings63,Edge Detection,2,TRUE
+buildings64,Edge Detection,3,TRUE
+buildings65,Edge Detection,2,TRUE
+buildings66,Edge Detection,2,TRUE
+buildings67,Edge Detection,2,TRUE
+buildings68,Edge Detection,2,TRUE
+buildings69,Edge Detection,2,TRUE
+buildings70,Edge Detection,2,TRUE
+buildings71,Edge Detection,2,TRUE
+buildings72,Edge Detection,2,TRUE
+buildings73,Edge Detection,2,TRUE
+buildings74,Edge Detection,2,TRUE
+buildings75,Edge Detection,2,TRUE
+buildings76,Edge Detection,2,TRUE
+buildings77,Edge Detection,2,TRUE
+buildings78,Edge Detection,2,TRUE
+buildings79,Edge Detection,2,TRUE
+buildings80,Edge Detection,2,TRUE
+buildings81,Edge Detection,2,TRUE
+buildings82,Edge Detection,2,TRUE
+buildings83,Edge Detection,2,TRUE
+buildings84,Edge Detection,2,TRUE
+buildings85,Edge Detection,2,TRUE
+buildings86,Edge Detection,2,TRUE
+buildings87,Edge Detection,2,TRUE
+buildings88,Edge Detection,2,TRUE
+buildings89,Edge Detection,2,TRUE
+buildings90,Edge Detection,2,TRUE
+buildings91,Edge Detection,2,TRUE
+buildings92,Edge Detection,2,TRUE
+buildings93,Edge Detection,2,TRUE
+buildings94,Edge Detection,2,TRUE
+buildings95,Edge Detection,2,TRUE
+buildings96,Edge Detection,2,TRUE
+buildings97,Edge Detection,2,TRUE
+buildings98,Edge Detection,3,TRUE
+buildings99,Edge Detection,2,TRUE

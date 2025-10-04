@@ -1,0 +1,766 @@
+UCMerced Buildings Dataset - Filter Performance Report
+=====================================================
+
+Configuration:
+  Threads: 16
+  Input folder: C:\Users\DELL\Downloads\UCMerced_LandUse\UCMerced_LandUse\Images\buildings
+  Total images processed: 100
+
+Filter Performance Summary:
+===========================
+
+Edge Detection:
+  Images processed: 100
+  Total time: 216.00 ms
+  Average time: 2.16 ms
+  Min time: 2.00 ms
+  Max time: 3.00 ms
+
+Gaussian Blur:
+  Images processed: 100
+  Total time: 2259.00 ms
+  Average time: 22.59 ms
+  Min time: 17.00 ms
+  Max time: 54.00 ms
+
+Laplacian:
+  Images processed: 100
+  Total time: 835.00 ms
+  Average time: 8.35 ms
+  Min time: 6.00 ms
+  Max time: 15.00 ms
+
+Sharpening:
+  Images processed: 100
+  Total time: 835.00 ms
+  Average time: 8.35 ms
+  Min time: 7.00 ms
+  Max time: 14.00 ms
+
+Sobel Magnitude:
+  Images processed: 100
+  Total time: 1458.00 ms
+  Average time: 14.58 ms
+  Min time: 11.00 ms
+  Max time: 24.00 ms
+
+Sobel X:
+  Images processed: 100
+  Total time: 1484.00 ms
+  Average time: 14.84 ms
+  Min time: 11.00 ms
+  Max time: 23.00 ms
+
+Sobel Y:
+  Images processed: 100
+  Total time: 210.00 ms
+  Average time: 2.10 ms
+  Min time: 2.00 ms
+  Max time: 5.00 ms
+
+
+Detailed Results:
+=================
+
+Image Name                    Filter              Time (ms)      Status    
+---------------------------------------------------------------------------
+buildings00                   Gaussian Blur       24.00          OK        
+buildings01                   Gaussian Blur       18.00          OK        
+buildings02                   Gaussian Blur       18.00          OK        
+buildings03                   Gaussian Blur       21.00          OK        
+buildings04                   Gaussian Blur       28.00          OK        
+buildings05                   Gaussian Blur       24.00          OK        
+buildings06                   Gaussian Blur       21.00          OK        
+buildings07                   Gaussian Blur       20.00          OK        
+buildings08                   Gaussian Blur       21.00          OK        
+buildings09                   Gaussian Blur       20.00          OK        
+buildings10                   Gaussian Blur       20.00          OK        
+buildings11                   Gaussian Blur       26.00          OK        
+buildings12                   Gaussian Blur       26.00          OK        
+buildings13                   Gaussian Blur       38.00          OK        
+buildings14                   Gaussian Blur       35.00          OK        
+buildings15                   Gaussian Blur       37.00          OK        
+buildings16                   Gaussian Blur       18.00          OK        
+buildings17                   Gaussian Blur       30.00          OK        
+buildings18                   Gaussian Blur       19.00          OK        
+buildings19                   Gaussian Blur       37.00          OK        
+buildings20                   Gaussian Blur       20.00          OK        
+buildings21                   Gaussian Blur       20.00          OK        
+buildings22                   Gaussian Blur       19.00          OK        
+buildings23                   Gaussian Blur       27.00          OK        
+buildings24                   Gaussian Blur       24.00          OK        
+buildings25                   Gaussian Blur       20.00          OK        
+buildings26                   Gaussian Blur       20.00          OK        
+buildings27                   Gaussian Blur       25.00          OK        
+buildings28                   Gaussian Blur       22.00          OK        
+buildings29                   Gaussian Blur       19.00          OK        
+buildings30                   Gaussian Blur       18.00          OK        
+buildings31                   Gaussian Blur       18.00          OK        
+buildings32                   Gaussian Blur       20.00          OK        
+buildings33                   Gaussian Blur       26.00          OK        
+buildings34                   Gaussian Blur       54.00          OK        
+buildings35                   Gaussian Blur       34.00          OK        
+buildings36                   Gaussian Blur       18.00          OK        
+buildings37                   Gaussian Blur       18.00          OK        
+buildings38                   Gaussian Blur       18.00          OK        
+buildings39                   Gaussian Blur       20.00          OK        
+buildings40                   Gaussian Blur       20.00          OK        
+buildings41                   Gaussian Blur       21.00          OK        
+buildings42                   Gaussian Blur       20.00          OK        
+buildings43                   Gaussian Blur       19.00          OK        
+buildings44                   Gaussian Blur       23.00          OK        
+buildings45                   Gaussian Blur       18.00          OK        
+buildings46                   Gaussian Blur       20.00          OK        
+buildings47                   Gaussian Blur       19.00          OK        
+buildings48                   Gaussian Blur       23.00          OK        
+buildings49                   Gaussian Blur       18.00          OK        
+buildings50                   Gaussian Blur       21.00          OK        
+buildings51                   Gaussian Blur       27.00          OK        
+buildings52                   Gaussian Blur       20.00          OK        
+buildings53                   Gaussian Blur       20.00          OK        
+buildings54                   Gaussian Blur       22.00          OK        
+buildings55                   Gaussian Blur       21.00          OK        
+buildings56                   Gaussian Blur       21.00          OK        
+buildings57                   Gaussian Blur       21.00          OK        
+buildings58                   Gaussian Blur       29.00          OK        
+buildings59                   Gaussian Blur       37.00          OK        
+buildings60                   Gaussian Blur       21.00          OK        
+buildings61                   Gaussian Blur       17.00          OK        
+buildings62                   Gaussian Blur       20.00          OK        
+buildings63                   Gaussian Blur       20.00          OK        
+buildings64                   Gaussian Blur       21.00          OK        
+buildings65                   Gaussian Blur       20.00          OK        
+buildings66                   Gaussian Blur       20.00          OK        
+buildings67                   Gaussian Blur       19.00          OK        
+buildings68                   Gaussian Blur       18.00          OK        
+buildings69                   Gaussian Blur       19.00          OK        
+buildings70                   Gaussian Blur       18.00          OK        
+buildings71                   Gaussian Blur       21.00          OK        
+buildings72                   Gaussian Blur       20.00          OK        
+buildings73                   Gaussian Blur       20.00          OK        
+buildings74                   Gaussian Blur       18.00          OK        
+buildings75                   Gaussian Blur       24.00          OK        
+buildings76                   Gaussian Blur       21.00          OK        
+buildings77                   Gaussian Blur       30.00          OK        
+buildings78                   Gaussian Blur       20.00          OK        
+buildings79                   Gaussian Blur       27.00          OK        
+buildings80                   Gaussian Blur       20.00          OK        
+buildings81                   Gaussian Blur       24.00          OK        
+buildings82                   Gaussian Blur       34.00          OK        
+buildings83                   Gaussian Blur       37.00          OK        
+buildings84                   Gaussian Blur       21.00          OK        
+buildings85                   Gaussian Blur       21.00          OK        
+buildings86                   Gaussian Blur       21.00          OK        
+buildings87                   Gaussian Blur       22.00          OK        
+buildings88                   Gaussian Blur       31.00          OK        
+buildings89                   Gaussian Blur       17.00          OK        
+buildings90                   Gaussian Blur       18.00          OK        
+buildings91                   Gaussian Blur       20.00          OK        
+buildings92                   Gaussian Blur       19.00          OK        
+buildings93                   Gaussian Blur       20.00          OK        
+buildings94                   Gaussian Blur       20.00          OK        
+buildings95                   Gaussian Blur       19.00          OK        
+buildings96                   Gaussian Blur       18.00          OK        
+buildings97                   Gaussian Blur       22.00          OK        
+buildings98                   Gaussian Blur       21.00          OK        
+buildings99                   Gaussian Blur       19.00          OK        
+buildings00                   Sobel X             13.00          OK        
+buildings01                   Sobel X             13.00          OK        
+buildings02                   Sobel X             13.00          OK        
+buildings03                   Sobel X             23.00          OK        
+buildings04                   Sobel X             14.00          OK        
+buildings05                   Sobel X             12.00          OK        
+buildings06                   Sobel X             13.00          OK        
+buildings07                   Sobel X             19.00          OK        
+buildings08                   Sobel X             13.00          OK        
+buildings09                   Sobel X             13.00          OK        
+buildings10                   Sobel X             13.00          OK        
+buildings11                   Sobel X             13.00          OK        
+buildings12                   Sobel X             12.00          OK        
+buildings13                   Sobel X             13.00          OK        
+buildings14                   Sobel X             15.00          OK        
+buildings15                   Sobel X             13.00          OK        
+buildings16                   Sobel X             19.00          OK        
+buildings17                   Sobel X             14.00          OK        
+buildings18                   Sobel X             16.00          OK        
+buildings19                   Sobel X             13.00          OK        
+buildings20                   Sobel X             21.00          OK        
+buildings21                   Sobel X             18.00          OK        
+buildings22                   Sobel X             17.00          OK        
+buildings23                   Sobel X             16.00          OK        
+buildings24                   Sobel X             15.00          OK        
+buildings25                   Sobel X             17.00          OK        
+buildings26                   Sobel X             13.00          OK        
+buildings27                   Sobel X             12.00          OK        
+buildings28                   Sobel X             14.00          OK        
+buildings29                   Sobel X             12.00          OK        
+buildings30                   Sobel X             19.00          OK        
+buildings31                   Sobel X             12.00          OK        
+buildings32                   Sobel X             13.00          OK        
+buildings33                   Sobel X             13.00          OK        
+buildings34                   Sobel X             12.00          OK        
+buildings35                   Sobel X             20.00          OK        
+buildings36                   Sobel X             13.00          OK        
+buildings37                   Sobel X             12.00          OK        
+buildings38                   Sobel X             14.00          OK        
+buildings39                   Sobel X             13.00          OK        
+buildings40                   Sobel X             14.00          OK        
+buildings41                   Sobel X             20.00          OK        
+buildings42                   Sobel X             12.00          OK        
+buildings43                   Sobel X             15.00          OK        
+buildings44                   Sobel X             16.00          OK        
+buildings45                   Sobel X             20.00          OK        
+buildings46                   Sobel X             14.00          OK        
+buildings47                   Sobel X             13.00          OK        
+buildings48                   Sobel X             14.00          OK        
+buildings49                   Sobel X             14.00          OK        
+buildings50                   Sobel X             19.00          OK        
+buildings51                   Sobel X             14.00          OK        
+buildings52                   Sobel X             13.00          OK        
+buildings53                   Sobel X             12.00          OK        
+buildings54                   Sobel X             14.00          OK        
+buildings55                   Sobel X             17.00          OK        
+buildings56                   Sobel X             18.00          OK        
+buildings57                   Sobel X             13.00          OK        
+buildings58                   Sobel X             12.00          OK        
+buildings59                   Sobel X             15.00          OK        
+buildings60                   Sobel X             14.00          OK        
+buildings61                   Sobel X             11.00          OK        
+buildings62                   Sobel X             19.00          OK        
+buildings63                   Sobel X             12.00          OK        
+buildings64                   Sobel X             14.00          OK        
+buildings65                   Sobel X             18.00          OK        
+buildings66                   Sobel X             13.00          OK        
+buildings67                   Sobel X             12.00          OK        
+buildings68                   Sobel X             20.00          OK        
+buildings69                   Sobel X             12.00          OK        
+buildings70                   Sobel X             16.00          OK        
+buildings71                   Sobel X             14.00          OK        
+buildings72                   Sobel X             11.00          OK        
+buildings73                   Sobel X             11.00          OK        
+buildings74                   Sobel X             13.00          OK        
+buildings75                   Sobel X             15.00          OK        
+buildings76                   Sobel X             17.00          OK        
+buildings77                   Sobel X             14.00          OK        
+buildings78                   Sobel X             13.00          OK        
+buildings79                   Sobel X             13.00          OK        
+buildings80                   Sobel X             18.00          OK        
+buildings81                   Sobel X             13.00          OK        
+buildings82                   Sobel X             18.00          OK        
+buildings83                   Sobel X             14.00          OK        
+buildings84                   Sobel X             20.00          OK        
+buildings85                   Sobel X             22.00          OK        
+buildings86                   Sobel X             17.00          OK        
+buildings87                   Sobel X             22.00          OK        
+buildings88                   Sobel X             16.00          OK        
+buildings89                   Sobel X             19.00          OK        
+buildings90                   Sobel X             13.00          OK        
+buildings91                   Sobel X             11.00          OK        
+buildings92                   Sobel X             16.00          OK        
+buildings93                   Sobel X             14.00          OK        
+buildings94                   Sobel X             13.00          OK        
+buildings95                   Sobel X             18.00          OK        
+buildings96                   Sobel X             15.00          OK        
+buildings97                   Sobel X             13.00          OK        
+buildings98                   Sobel X             13.00          OK        
+buildings99                   Sobel X             15.00          OK        
+buildings00                   Sobel Y             5.00           OK        
+buildings01                   Sobel Y             3.00           OK        
+buildings02                   Sobel Y             2.00           OK        
+buildings03                   Sobel Y             2.00           OK        
+buildings04                   Sobel Y             2.00           OK        
+buildings05                   Sobel Y             2.00           OK        
+buildings06                   Sobel Y             2.00           OK        
+buildings07                   Sobel Y             2.00           OK        
+buildings08                   Sobel Y             2.00           OK        
+buildings09                   Sobel Y             2.00           OK        
+buildings10                   Sobel Y             2.00           OK        
+buildings11                   Sobel Y             2.00           OK        
+buildings12                   Sobel Y             2.00           OK        
+buildings13                   Sobel Y             2.00           OK        
+buildings14                   Sobel Y             2.00           OK        
+buildings15                   Sobel Y             2.00           OK        
+buildings16                   Sobel Y             2.00           OK        
+buildings17                   Sobel Y             2.00           OK        
+buildings18                   Sobel Y             2.00           OK        
+buildings19                   Sobel Y             2.00           OK        
+buildings20                   Sobel Y             2.00           OK        
+buildings21                   Sobel Y             2.00           OK        
+buildings22                   Sobel Y             2.00           OK        
+buildings23                   Sobel Y             2.00           OK        
+buildings24                   Sobel Y             2.00           OK        
+buildings25                   Sobel Y             2.00           OK        
+buildings26                   Sobel Y             2.00           OK        
+buildings27                   Sobel Y             2.00           OK        
+buildings28                   Sobel Y             2.00           OK        
+buildings29                   Sobel Y             2.00           OK        
+buildings30                   Sobel Y             2.00           OK        
+buildings31                   Sobel Y             2.00           OK        
+buildings32                   Sobel Y             2.00           OK        
+buildings33                   Sobel Y             2.00           OK        
+buildings34                   Sobel Y             2.00           OK        
+buildings35                   Sobel Y             2.00           OK        
+buildings36                   Sobel Y             2.00           OK        
+buildings37                   Sobel Y             2.00           OK        
+buildings38                   Sobel Y             2.00           OK        
+buildings39                   Sobel Y             2.00           OK        
+buildings40                   Sobel Y             3.00           OK        
+buildings41                   Sobel Y             2.00           OK        
+buildings42                   Sobel Y             3.00           OK        
+buildings43                   Sobel Y             3.00           OK        
+buildings44                   Sobel Y             2.00           OK        
+buildings45                   Sobel Y             2.00           OK        
+buildings46                   Sobel Y             2.00           OK        
+buildings47                   Sobel Y             2.00           OK        
+buildings48                   Sobel Y             2.00           OK        
+buildings49                   Sobel Y             2.00           OK        
+buildings50                   Sobel Y             2.00           OK        
+buildings51                   Sobel Y             2.00           OK        
+buildings52                   Sobel Y             2.00           OK        
+buildings53                   Sobel Y             2.00           OK        
+buildings54                   Sobel Y             2.00           OK        
+buildings55                   Sobel Y             2.00           OK        
+buildings56                   Sobel Y             2.00           OK        
+buildings57                   Sobel Y             2.00           OK        
+buildings58                   Sobel Y             2.00           OK        
+buildings59                   Sobel Y             3.00           OK        
+buildings60                   Sobel Y             2.00           OK        
+buildings61                   Sobel Y             3.00           OK        
+buildings62                   Sobel Y             2.00           OK        
+buildings63                   Sobel Y             2.00           OK        
+buildings64                   Sobel Y             2.00           OK        
+buildings65                   Sobel Y             2.00           OK        
+buildings66                   Sobel Y             2.00           OK        
+buildings67                   Sobel Y             2.00           OK        
+buildings68                   Sobel Y             2.00           OK        
+buildings69                   Sobel Y             2.00           OK        
+buildings70                   Sobel Y             2.00           OK        
+buildings71                   Sobel Y             2.00           OK        
+buildings72                   Sobel Y             2.00           OK        
+buildings73                   Sobel Y             2.00           OK        
+buildings74                   Sobel Y             2.00           OK        
+buildings75                   Sobel Y             2.00           OK        
+buildings76                   Sobel Y             2.00           OK        
+buildings77                   Sobel Y             2.00           OK        
+buildings78                   Sobel Y             2.00           OK        
+buildings79                   Sobel Y             2.00           OK        
+buildings80                   Sobel Y             2.00           OK        
+buildings81                   Sobel Y             2.00           OK        
+buildings82                   Sobel Y             2.00           OK        
+buildings83                   Sobel Y             2.00           OK        
+buildings84                   Sobel Y             2.00           OK        
+buildings85                   Sobel Y             2.00           OK        
+buildings86                   Sobel Y             2.00           OK        
+buildings87                   Sobel Y             2.00           OK        
+buildings88                   Sobel Y             2.00           OK        
+buildings89                   Sobel Y             2.00           OK        
+buildings90                   Sobel Y             2.00           OK        
+buildings91                   Sobel Y             2.00           OK        
+buildings92                   Sobel Y             2.00           OK        
+buildings93                   Sobel Y             2.00           OK        
+buildings94                   Sobel Y             2.00           OK        
+buildings95                   Sobel Y             2.00           OK        
+buildings96                   Sobel Y             2.00           OK        
+buildings97                   Sobel Y             2.00           OK        
+buildings98                   Sobel Y             3.00           OK        
+buildings99                   Sobel Y             2.00           OK        
+buildings00                   Sobel Magnitude     17.00          OK        
+buildings01                   Sobel Magnitude     14.00          OK        
+buildings02                   Sobel Magnitude     18.00          OK        
+buildings03                   Sobel Magnitude     12.00          OK        
+buildings04                   Sobel Magnitude     13.00          OK        
+buildings05                   Sobel Magnitude     18.00          OK        
+buildings06                   Sobel Magnitude     13.00          OK        
+buildings07                   Sobel Magnitude     13.00          OK        
+buildings08                   Sobel Magnitude     13.00          OK        
+buildings09                   Sobel Magnitude     14.00          OK        
+buildings10                   Sobel Magnitude     14.00          OK        
+buildings11                   Sobel Magnitude     14.00          OK        
+buildings12                   Sobel Magnitude     14.00          OK        
+buildings13                   Sobel Magnitude     14.00          OK        
+buildings14                   Sobel Magnitude     13.00          OK        
+buildings15                   Sobel Magnitude     14.00          OK        
+buildings16                   Sobel Magnitude     13.00          OK        
+buildings17                   Sobel Magnitude     15.00          OK        
+buildings18                   Sobel Magnitude     14.00          OK        
+buildings19                   Sobel Magnitude     15.00          OK        
+buildings20                   Sobel Magnitude     20.00          OK        
+buildings21                   Sobel Magnitude     14.00          OK        
+buildings22                   Sobel Magnitude     18.00          OK        
+buildings23                   Sobel Magnitude     12.00          OK        
+buildings24                   Sobel Magnitude     15.00          OK        
+buildings25                   Sobel Magnitude     23.00          OK        
+buildings26                   Sobel Magnitude     21.00          OK        
+buildings27                   Sobel Magnitude     17.00          OK        
+buildings28                   Sobel Magnitude     19.00          OK        
+buildings29                   Sobel Magnitude     17.00          OK        
+buildings30                   Sobel Magnitude     17.00          OK        
+buildings31                   Sobel Magnitude     12.00          OK        
+buildings32                   Sobel Magnitude     13.00          OK        
+buildings33                   Sobel Magnitude     13.00          OK        
+buildings34                   Sobel Magnitude     13.00          OK        
+buildings35                   Sobel Magnitude     14.00          OK        
+buildings36                   Sobel Magnitude     13.00          OK        
+buildings37                   Sobel Magnitude     14.00          OK        
+buildings38                   Sobel Magnitude     12.00          OK        
+buildings39                   Sobel Magnitude     11.00          OK        
+buildings40                   Sobel Magnitude     13.00          OK        
+buildings41                   Sobel Magnitude     19.00          OK        
+buildings42                   Sobel Magnitude     14.00          OK        
+buildings43                   Sobel Magnitude     14.00          OK        
+buildings44                   Sobel Magnitude     14.00          OK        
+buildings45                   Sobel Magnitude     13.00          OK        
+buildings46                   Sobel Magnitude     13.00          OK        
+buildings47                   Sobel Magnitude     13.00          OK        
+buildings48                   Sobel Magnitude     15.00          OK        
+buildings49                   Sobel Magnitude     12.00          OK        
+buildings50                   Sobel Magnitude     23.00          OK        
+buildings51                   Sobel Magnitude     14.00          OK        
+buildings52                   Sobel Magnitude     13.00          OK        
+buildings53                   Sobel Magnitude     13.00          OK        
+buildings54                   Sobel Magnitude     12.00          OK        
+buildings55                   Sobel Magnitude     13.00          OK        
+buildings56                   Sobel Magnitude     13.00          OK        
+buildings57                   Sobel Magnitude     15.00          OK        
+buildings58                   Sobel Magnitude     13.00          OK        
+buildings59                   Sobel Magnitude     19.00          OK        
+buildings60                   Sobel Magnitude     19.00          OK        
+buildings61                   Sobel Magnitude     12.00          OK        
+buildings62                   Sobel Magnitude     13.00          OK        
+buildings63                   Sobel Magnitude     12.00          OK        
+buildings64                   Sobel Magnitude     13.00          OK        
+buildings65                   Sobel Magnitude     13.00          OK        
+buildings66                   Sobel Magnitude     13.00          OK        
+buildings67                   Sobel Magnitude     13.00          OK        
+buildings68                   Sobel Magnitude     18.00          OK        
+buildings69                   Sobel Magnitude     12.00          OK        
+buildings70                   Sobel Magnitude     13.00          OK        
+buildings71                   Sobel Magnitude     13.00          OK        
+buildings72                   Sobel Magnitude     13.00          OK        
+buildings73                   Sobel Magnitude     18.00          OK        
+buildings74                   Sobel Magnitude     13.00          OK        
+buildings75                   Sobel Magnitude     12.00          OK        
+buildings76                   Sobel Magnitude     12.00          OK        
+buildings77                   Sobel Magnitude     12.00          OK        
+buildings78                   Sobel Magnitude     12.00          OK        
+buildings79                   Sobel Magnitude     13.00          OK        
+buildings80                   Sobel Magnitude     14.00          OK        
+buildings81                   Sobel Magnitude     18.00          OK        
+buildings82                   Sobel Magnitude     24.00          OK        
+buildings83                   Sobel Magnitude     15.00          OK        
+buildings84                   Sobel Magnitude     22.00          OK        
+buildings85                   Sobel Magnitude     14.00          OK        
+buildings86                   Sobel Magnitude     21.00          OK        
+buildings87                   Sobel Magnitude     15.00          OK        
+buildings88                   Sobel Magnitude     14.00          OK        
+buildings89                   Sobel Magnitude     15.00          OK        
+buildings90                   Sobel Magnitude     13.00          OK        
+buildings91                   Sobel Magnitude     15.00          OK        
+buildings92                   Sobel Magnitude     17.00          OK        
+buildings93                   Sobel Magnitude     12.00          OK        
+buildings94                   Sobel Magnitude     12.00          OK        
+buildings95                   Sobel Magnitude     19.00          OK        
+buildings96                   Sobel Magnitude     11.00          OK        
+buildings97                   Sobel Magnitude     11.00          OK        
+buildings98                   Sobel Magnitude     13.00          OK        
+buildings99                   Sobel Magnitude     13.00          OK        
+buildings00                   Sharpening          7.00           OK        
+buildings01                   Sharpening          9.00           OK        
+buildings02                   Sharpening          8.00           OK        
+buildings03                   Sharpening          7.00           OK        
+buildings04                   Sharpening          7.00           OK        
+buildings05                   Sharpening          8.00           OK        
+buildings06                   Sharpening          7.00           OK        
+buildings07                   Sharpening          7.00           OK        
+buildings08                   Sharpening          9.00           OK        
+buildings09                   Sharpening          8.00           OK        
+buildings10                   Sharpening          8.00           OK        
+buildings11                   Sharpening          7.00           OK        
+buildings12                   Sharpening          7.00           OK        
+buildings13                   Sharpening          9.00           OK        
+buildings14                   Sharpening          7.00           OK        
+buildings15                   Sharpening          7.00           OK        
+buildings16                   Sharpening          9.00           OK        
+buildings17                   Sharpening          7.00           OK        
+buildings18                   Sharpening          7.00           OK        
+buildings19                   Sharpening          9.00           OK        
+buildings20                   Sharpening          8.00           OK        
+buildings21                   Sharpening          8.00           OK        
+buildings22                   Sharpening          8.00           OK        
+buildings23                   Sharpening          7.00           OK        
+buildings24                   Sharpening          7.00           OK        
+buildings25                   Sharpening          7.00           OK        
+buildings26                   Sharpening          7.00           OK        
+buildings27                   Sharpening          7.00           OK        
+buildings28                   Sharpening          8.00           OK        
+buildings29                   Sharpening          8.00           OK        
+buildings30                   Sharpening          7.00           OK        
+buildings31                   Sharpening          8.00           OK        
+buildings32                   Sharpening          8.00           OK        
+buildings33                   Sharpening          11.00          OK        
+buildings34                   Sharpening          7.00           OK        
+buildings35                   Sharpening          8.00           OK        
+buildings36                   Sharpening          8.00           OK        
+buildings37                   Sharpening          7.00           OK        
+buildings38                   Sharpening          8.00           OK        
+buildings39                   Sharpening          8.00           OK        
+buildings40                   Sharpening          8.00           OK        
+buildings41                   Sharpening          8.00           OK        
+buildings42                   Sharpening          8.00           OK        
+buildings43                   Sharpening          10.00          OK        
+buildings44                   Sharpening          7.00           OK        
+buildings45                   Sharpening          7.00           OK        
+buildings46                   Sharpening          8.00           OK        
+buildings47                   Sharpening          7.00           OK        
+buildings48                   Sharpening          11.00          OK        
+buildings49                   Sharpening          7.00           OK        
+buildings50                   Sharpening          9.00           OK        
+buildings51                   Sharpening          8.00           OK        
+buildings52                   Sharpening          8.00           OK        
+buildings53                   Sharpening          7.00           OK        
+buildings54                   Sharpening          8.00           OK        
+buildings55                   Sharpening          8.00           OK        
+buildings56                   Sharpening          7.00           OK        
+buildings57                   Sharpening          9.00           OK        
+buildings58                   Sharpening          8.00           OK        
+buildings59                   Sharpening          7.00           OK        
+buildings60                   Sharpening          7.00           OK        
+buildings61                   Sharpening          7.00           OK        
+buildings62                   Sharpening          7.00           OK        
+buildings63                   Sharpening          7.00           OK        
+buildings64                   Sharpening          13.00          OK        
+buildings65                   Sharpening          11.00          OK        
+buildings66                   Sharpening          11.00          OK        
+buildings67                   Sharpening          7.00           OK        
+buildings68                   Sharpening          8.00           OK        
+buildings69                   Sharpening          7.00           OK        
+buildings70                   Sharpening          7.00           OK        
+buildings71                   Sharpening          8.00           OK        
+buildings72                   Sharpening          9.00           OK        
+buildings73                   Sharpening          9.00           OK        
+buildings74                   Sharpening          8.00           OK        
+buildings75                   Sharpening          14.00          OK        
+buildings76                   Sharpening          12.00          OK        
+buildings77                   Sharpening          11.00          OK        
+buildings78                   Sharpening          12.00          OK        
+buildings79                   Sharpening          10.00          OK        
+buildings80                   Sharpening          14.00          OK        
+buildings81                   Sharpening          9.00           OK        
+buildings82                   Sharpening          10.00          OK        
+buildings83                   Sharpening          10.00          OK        
+buildings84                   Sharpening          11.00          OK        
+buildings85                   Sharpening          11.00          OK        
+buildings86                   Sharpening          7.00           OK        
+buildings87                   Sharpening          9.00           OK        
+buildings88                   Sharpening          11.00          OK        
+buildings89                   Sharpening          7.00           OK        
+buildings90                   Sharpening          9.00           OK        
+buildings91                   Sharpening          8.00           OK        
+buildings92                   Sharpening          7.00           OK        
+buildings93                   Sharpening          12.00          OK        
+buildings94                   Sharpening          8.00           OK        
+buildings95                   Sharpening          7.00           OK        
+buildings96                   Sharpening          7.00           OK        
+buildings97                   Sharpening          7.00           OK        
+buildings98                   Sharpening          10.00          OK        
+buildings99                   Sharpening          7.00           OK        
+buildings00                   Laplacian           7.00           OK        
+buildings01                   Laplacian           7.00           OK        
+buildings02                   Laplacian           8.00           OK        
+buildings03                   Laplacian           12.00          OK        
+buildings04                   Laplacian           9.00           OK        
+buildings05                   Laplacian           7.00           OK        
+buildings06                   Laplacian           8.00           OK        
+buildings07                   Laplacian           9.00           OK        
+buildings08                   Laplacian           7.00           OK        
+buildings09                   Laplacian           7.00           OK        
+buildings10                   Laplacian           7.00           OK        
+buildings11                   Laplacian           7.00           OK        
+buildings12                   Laplacian           6.00           OK        
+buildings13                   Laplacian           7.00           OK        
+buildings14                   Laplacian           8.00           OK        
+buildings15                   Laplacian           7.00           OK        
+buildings16                   Laplacian           7.00           OK        
+buildings17                   Laplacian           7.00           OK        
+buildings18                   Laplacian           8.00           OK        
+buildings19                   Laplacian           8.00           OK        
+buildings20                   Laplacian           7.00           OK        
+buildings21                   Laplacian           7.00           OK        
+buildings22                   Laplacian           9.00           OK        
+buildings23                   Laplacian           7.00           OK        
+buildings24                   Laplacian           8.00           OK        
+buildings25                   Laplacian           8.00           OK        
+buildings26                   Laplacian           7.00           OK        
+buildings27                   Laplacian           8.00           OK        
+buildings28                   Laplacian           7.00           OK        
+buildings29                   Laplacian           7.00           OK        
+buildings30                   Laplacian           15.00          OK        
+buildings31                   Laplacian           8.00           OK        
+buildings32                   Laplacian           8.00           OK        
+buildings33                   Laplacian           7.00           OK        
+buildings34                   Laplacian           7.00           OK        
+buildings35                   Laplacian           8.00           OK        
+buildings36                   Laplacian           9.00           OK        
+buildings37                   Laplacian           7.00           OK        
+buildings38                   Laplacian           7.00           OK        
+buildings39                   Laplacian           7.00           OK        
+buildings40                   Laplacian           8.00           OK        
+buildings41                   Laplacian           8.00           OK        
+buildings42                   Laplacian           10.00          OK        
+buildings43                   Laplacian           8.00           OK        
+buildings44                   Laplacian           7.00           OK        
+buildings45                   Laplacian           9.00           OK        
+buildings46                   Laplacian           7.00           OK        
+buildings47                   Laplacian           8.00           OK        
+buildings48                   Laplacian           7.00           OK        
+buildings49                   Laplacian           8.00           OK        
+buildings50                   Laplacian           12.00          OK        
+buildings51                   Laplacian           10.00          OK        
+buildings52                   Laplacian           11.00          OK        
+buildings53                   Laplacian           7.00           OK        
+buildings54                   Laplacian           7.00           OK        
+buildings55                   Laplacian           7.00           OK        
+buildings56                   Laplacian           8.00           OK        
+buildings57                   Laplacian           10.00          OK        
+buildings58                   Laplacian           8.00           OK        
+buildings59                   Laplacian           9.00           OK        
+buildings60                   Laplacian           12.00          OK        
+buildings61                   Laplacian           8.00           OK        
+buildings62                   Laplacian           8.00           OK        
+buildings63                   Laplacian           11.00          OK        
+buildings64                   Laplacian           7.00           OK        
+buildings65                   Laplacian           7.00           OK        
+buildings66                   Laplacian           7.00           OK        
+buildings67                   Laplacian           6.00           OK        
+buildings68                   Laplacian           7.00           OK        
+buildings69                   Laplacian           7.00           OK        
+buildings70                   Laplacian           7.00           OK        
+buildings71                   Laplacian           7.00           OK        
+buildings72                   Laplacian           9.00           OK        
+buildings73                   Laplacian           11.00          OK        
+buildings74                   Laplacian           8.00           OK        
+buildings75                   Laplacian           9.00           OK        
+buildings76                   Laplacian           10.00          OK        
+buildings77                   Laplacian           13.00          OK        
+buildings78                   Laplacian           8.00           OK        
+buildings79                   Laplacian           14.00          OK        
+buildings80                   Laplacian           8.00           OK        
+buildings81                   Laplacian           11.00          OK        
+buildings82                   Laplacian           11.00          OK        
+buildings83                   Laplacian           14.00          OK        
+buildings84                   Laplacian           10.00          OK        
+buildings85                   Laplacian           10.00          OK        
+buildings86                   Laplacian           11.00          OK        
+buildings87                   Laplacian           7.00           OK        
+buildings88                   Laplacian           9.00           OK        
+buildings89                   Laplacian           7.00           OK        
+buildings90                   Laplacian           7.00           OK        
+buildings91                   Laplacian           9.00           OK        
+buildings92                   Laplacian           7.00           OK        
+buildings93                   Laplacian           7.00           OK        
+buildings94                   Laplacian           12.00          OK        
+buildings95                   Laplacian           10.00          OK        
+buildings96                   Laplacian           8.00           OK        
+buildings97                   Laplacian           7.00           OK        
+buildings98                   Laplacian           7.00           OK        
+buildings99                   Laplacian           7.00           OK        
+buildings00                   Edge Detection      3.00           OK        
+buildings01                   Edge Detection      3.00           OK        
+buildings02                   Edge Detection      3.00           OK        
+buildings03                   Edge Detection      3.00           OK        
+buildings04                   Edge Detection      2.00           OK        
+buildings05                   Edge Detection      3.00           OK        
+buildings06                   Edge Detection      2.00           OK        
+buildings07                   Edge Detection      2.00           OK        
+buildings08                   Edge Detection      3.00           OK        
+buildings09                   Edge Detection      3.00           OK        
+buildings10                   Edge Detection      2.00           OK        
+buildings11                   Edge Detection      2.00           OK        
+buildings12                   Edge Detection      3.00           OK        
+buildings13                   Edge Detection      2.00           OK        
+buildings14                   Edge Detection      2.00           OK        
+buildings15                   Edge Detection      2.00           OK        
+buildings16                   Edge Detection      2.00           OK        
+buildings17                   Edge Detection      2.00           OK        
+buildings18                   Edge Detection      2.00           OK        
+buildings19                   Edge Detection      3.00           OK        
+buildings20                   Edge Detection      3.00           OK        
+buildings21                   Edge Detection      3.00           OK        
+buildings22                   Edge Detection      2.00           OK        
+buildings23                   Edge Detection      2.00           OK        
+buildings24                   Edge Detection      2.00           OK        
+buildings25                   Edge Detection      2.00           OK        
+buildings26                   Edge Detection      2.00           OK        
+buildings27                   Edge Detection      2.00           OK        
+buildings28                   Edge Detection      2.00           OK        
+buildings29                   Edge Detection      2.00           OK        
+buildings30                   Edge Detection      2.00           OK        
+buildings31                   Edge Detection      2.00           OK        
+buildings32                   Edge Detection      2.00           OK        
+buildings33                   Edge Detection      2.00           OK        
+buildings34                   Edge Detection      2.00           OK        
+buildings35                   Edge Detection      2.00           OK        
+buildings36                   Edge Detection      2.00           OK        
+buildings37                   Edge Detection      2.00           OK        
+buildings38                   Edge Detection      3.00           OK        
+buildings39                   Edge Detection      2.00           OK        
+buildings40                   Edge Detection      2.00           OK        
+buildings41                   Edge Detection      2.00           OK        
+buildings42                   Edge Detection      2.00           OK        
+buildings43                   Edge Detection      2.00           OK        
+buildings44                   Edge Detection      2.00           OK        
+buildings45                   Edge Detection      2.00           OK        
+buildings46                   Edge Detection      2.00           OK        
+buildings47                   Edge Detection      2.00           OK        
+buildings48                   Edge Detection      2.00           OK        
+buildings49                   Edge Detection      2.00           OK        
+buildings50                   Edge Detection      2.00           OK        
+buildings51                   Edge Detection      2.00           OK        
+buildings52                   Edge Detection      2.00           OK        
+buildings53                   Edge Detection      2.00           OK        
+buildings54                   Edge Detection      2.00           OK        
+buildings55                   Edge Detection      3.00           OK        
+buildings56                   Edge Detection      3.00           OK        
+buildings57                   Edge Detection      2.00           OK        
+buildings58                   Edge Detection      2.00           OK        
+buildings59                   Edge Detection      2.00           OK        
+buildings60                   Edge Detection      2.00           OK        
+buildings61                   Edge Detection      2.00           OK        
+buildings62                   Edge Detection      2.00           OK        
+buildings63                   Edge Detection      2.00           OK        
+buildings64                   Edge Detection      3.00           OK        
+buildings65                   Edge Detection      2.00           OK        
+buildings66                   Edge Detection      2.00           OK        
+buildings67                   Edge Detection      2.00           OK        
+buildings68                   Edge Detection      2.00           OK        
+buildings69                   Edge Detection      2.00           OK        
+buildings70                   Edge Detection      2.00           OK        
+buildings71                   Edge Detection      2.00           OK        
+buildings72                   Edge Detection      2.00           OK        
+buildings73                   Edge Detection      2.00           OK        
+buildings74                   Edge Detection      2.00           OK        
+buildings75                   Edge Detection      2.00           OK        
+buildings76                   Edge Detection      2.00           OK        
+buildings77                   Edge Detection      2.00           OK        
+buildings78                   Edge Detection      2.00           OK        
+buildings79                   Edge Detection      2.00           OK        
+buildings80                   Edge Detection      2.00           OK        
+buildings81                   Edge Detection      2.00           OK        
+buildings82                   Edge Detection      2.00           OK        
+buildings83                   Edge Detection      2.00           OK        
+buildings84                   Edge Detection      2.00           OK        
+buildings85                   Edge Detection      2.00           OK        
+buildings86                   Edge Detection      2.00           OK        
+buildings87                   Edge Detection      2.00           OK        
+buildings88                   Edge Detection      2.00           OK        
+buildings89                   Edge Detection      2.00           OK        
+buildings90                   Edge Detection      2.00           OK        
+buildings91                   Edge Detection      2.00           OK        
+buildings92                   Edge Detection      2.00           OK        
+buildings93                   Edge Detection      2.00           OK        
+buildings94                   Edge Detection      2.00           OK        
+buildings95                   Edge Detection      2.00           OK        
+buildings96                   Edge Detection      2.00           OK        
+buildings97                   Edge Detection      2.00           OK        
+buildings98                   Edge Detection      3.00           OK        
+buildings99                   Edge Detection      2.00           OK        
