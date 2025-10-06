@@ -317,7 +317,7 @@ public:
         
         std::cout << "  Processing: " << imageName << " | " 
                   << filterDisplayName << " | " << variantDisplayName << "..." << std::flush;
-        
+        // Result object to store the image name ,filter type,varient type
         ImageProcessingResult result;
         result.imageName = imageName;
         result.filterName = filterDisplayName;
@@ -325,7 +325,7 @@ public:
         result.success = false;
         
         try {
-            cv::Mat image = cv::imread(imagePath);
+            cv::Mat image = cv::imread(imagePath); // reading the image 
             
             if (image.empty()) {
                 std::cout << " FAILED (cannot load image)" << std::endl;
@@ -359,7 +359,7 @@ public:
         
         allResults.push_back(result);
     }
-
+// Preprocessing of our dataset happens here 
     void processBatch() {
         std::cout << "\n========================================" << std::endl;
         std::cout << "BATCH PROCESSING UCMerced BUILDINGS DATASET" << std::endl;

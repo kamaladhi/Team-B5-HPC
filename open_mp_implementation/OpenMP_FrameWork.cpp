@@ -1,4 +1,4 @@
-// openmp_main_enhanced.cpp
+// for a single image we made a framework
 
 #include <opencv2/opencv.hpp>
 #include <iostream>
