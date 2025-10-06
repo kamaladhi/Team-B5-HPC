@@ -57,10 +57,9 @@ private:
     int numThreads;
 
 public:
-    UCMercedBuildingsBenchmark(const std::string& inputPath, 
-                               const std::string& outputPath,
-                               int threads = omp_get_max_threads()) 
-        : inputFolder(inputPath), outputFolder(outputPath), numThreads(threads) {
+    // constructor 
+    UCMercedBuildingsBenchmark(const std::string& inputPath, const std::string& 
+        outputPath,int threads = omp_get_max_threads()): inputFolder(inputPath), outputFolder(outputPath), numThreads(threads) {
         
         gaussianFilter = GaussianFilterOMP();
         sobelFilter = SobelFilterOMP();
@@ -72,7 +71,7 @@ public:
         // Create output directory structure
         createOutputDirectories();
     }
-
+    // function for creating a output directory 
     void createOutputDirectories() {
         try {
             fs::create_directories(outputFolder);
@@ -95,24 +94,28 @@ public:
             std::cerr << "Error creating directories: " << e.what() << std::endl;
         }
     }
-
+    // Function which is used for implementing a specific filters to an input image
+    // takes image , filter type and convolution varient
     cv::Mat applyFilter(const cv::Mat& input, FilterType filterType, ConvolutionVariant variant) {
         cv::Mat result;
         cv::Mat grayInput;
         
         // Convert to grayscale if needed for certain filters
+        // for sobel filter or edge detection filter we need grayscale image so converting those to grayscale image.
         if (input.channels() == 3 && (filterType == SOBEL_Y || filterType == EDGE_DETECTION)) {
             cv::cvtColor(input, grayInput, cv::COLOR_BGR2GRAY);
         } else {
             grayInput = input.clone();
         }
         
+        // switch case statement to choose the filter type
         switch(filterType) {
             case GAUSSIAN: {
                 // For Gaussian, use the filter's built-in method (modify if needed)
                 result = gaussianFilter.apply(input, 5, 1.4);
                 break;
             }
+            // Detects VERTICAL edges.
             case SOBEL_X: {
                 std::vector<std::vector<float>> sobelX = {
                     {-1, 0, 1},
@@ -122,6 +125,7 @@ public:
                 result = applyConvolutionVariant(grayInput, sobelX, variant);
                 break;
             }
+            // Detects HORIZONTAL edges.
             case SOBEL_Y: {
                 std::vector<std::vector<float>> sobelY = {
                     {-1, -2, -1},
@@ -135,6 +139,7 @@ public:
                 result = sobelFilter.apply(input);
                 break;
             }
+
             case SHARPENING: {
                 std::vector<std::vector<float>> sharpenKernel = {
                     { 0, -1,  0},
@@ -167,31 +172,33 @@ public:
         return result;
     }
     
-    cv::Mat applyConvolutionVariant(const cv::Mat& input, 
-                                    const std::vector<std::vector<float>>& kernel, 
-                                    ConvolutionVariant variant) {
+    cv::Mat applyConvolutionVariant(const cv::Mat& input, const std::vector<std::vector<float>>& kernel,ConvolutionVariant variant) {
         cv::Mat result;
         
         switch(variant) {
+
             case STANDARD:
                 result = ConvolutionEngineOMP::convolve2D(input, kernel);
                 break;
+
             case BALANCED:
                 result = ConvolutionEngineOMP::convolve2DBalanced(input, kernel);
                 break;
+
             case CACHE_OPTIMIZED:
                 result = ConvolutionEngineOMP::convolve2DCacheOptimized(input, kernel);
                 break;
+
             case RAW_ARRAY: {
                 // Convert to raw array format
                 cv::Mat floatInput;
-                input.convertTo(floatInput, CV_32F);
+                input.convertTo(floatInput, CV_32F); // convert to float for accuracy.
                 
                 int width = input.cols;
                 int height = input.rows;
                 int kernelSize = kernel.size();
                 
-                // Flatten kernel
+                // Flatten kernel as raw array is 1D and the kernal is 2D
                 std::vector<float> flatKernel;
                 for (const auto& row : kernel) {
                     flatKernel.insert(flatKernel.end(), row.begin(), row.end());
@@ -209,10 +216,9 @@ public:
                 }
                 
                 // Call raw array convolution
-                ConvolutionEngineOMP::convolve2D(inputArray, outputArray, width, height, 
-                                                flatKernel.data(), kernelSize);
+                ConvolutionEngineOMP::convolve2D(inputArray, outputArray, width, height,flatKernel.data(), kernelSize);
                 
-                // Convert back to Mat
+                // Convert back to Matrics
                 result = cv::Mat(height, width, CV_32F);
                 for (int y = 0; y < height; y++) {
                     for (int x = 0; x < width; x++) {
@@ -228,7 +234,8 @@ public:
         
         return result;
     }
-    
+// =======================================================================================
+// Utility functions which is used for making the enum values into a human readable form    
     std::string getFilterName(FilterType filterType) {
         switch(filterType) {
             case GAUSSIAN: return "gaussian";
@@ -284,8 +291,7 @@ public:
                     std::string ext = entry.path().extension().string();
                     std::transform(ext.begin(), ext.end(), ext.begin(), ::tolower);
                     
-                    if (ext == ".jpg" || ext == ".jpeg" || ext == ".png" || 
-                        ext == ".tif" || ext == ".tiff" || ext == ".bmp") {
+                    if (ext == ".jpg" || ext == ".jpeg" || ext == ".png" || ext == ".tif" || ext == ".tiff" || ext == ".bmp") {
                         imageFiles.push_back(entry.path().string());
                     }
                 }
@@ -297,11 +303,15 @@ public:
         std::sort(imageFiles.begin(), imageFiles.end());
         return imageFiles;
     }
+// =============================================================================================
 
+    // Function to process the image by taking image path, FilterType and which convolution
     void processImage(const std::string& imagePath, FilterType filterType, ConvolutionVariant variant) {
-        std::string imageName = fs::path(imagePath).stem().string();
-        std::string filterName = getFilterName(filterType);
-        std::string variantName = getVariantName(variant);
+
+        std::string imageName = fs::path(imagePath).stem().string(); // get's the file path
+        std::string filterName = getFilterName(filterType);// gets the name of the filter 
+        std::string variantName = getVariantName(variant); // Gets which convolution varient we are going to do
+        // these are used for displaying of the contents 
         std::string filterDisplayName = getFilterDisplayName(filterType);
         std::string variantDisplayName = getVariantDisplayName(variant);
         
