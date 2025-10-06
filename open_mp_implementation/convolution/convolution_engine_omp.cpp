@@ -8,6 +8,7 @@
 void ConvolutionEngineOMP::convolve2D(float* input, float* output, int width, int height, float* kernel, int kernelSize) {
     int halfKernel = kernelSize / 2; // finding the radius of the kernal 
 
+
     // Initialize output array in parallel
     #pragma omp parallel for
     for (int i = 0; i < width * height; i++) {
@@ -155,3 +156,4 @@ cv::Mat ConvolutionEngineOMP::convolve2DCacheOptimized(const cv::Mat& input, con
     }
 
     return output;
+}
