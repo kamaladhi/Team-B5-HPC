@@ -23,6 +23,7 @@ enum FilterType {
     EDGE_DETECTION
 };
 
+
 enum ConvolutionMethod {
     BASIC = 0,
     BALANCED = 1,
