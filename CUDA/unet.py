@@ -450,14 +450,28 @@ def apply_gaussian_blur(images, sigma=2.0, use_cuda=True):
         return blur
 
 def apply_motion_blur(images, blur_length=15, angle=None, use_cuda=True):
-    """Apply motion blur to images"""
     if angle is None:
         angle = np.random.uniform(0, 2 * np.pi)
-    
     if use_cuda and cuda_module is not None:
         return cuda_module.motion_blur_forward(images, blur_length, angle)
     else:
-        return images 
+        images_np = images.cpu().permute(0, 2, 3, 1).numpy()
+        blurred_images_np = np.empty_like(images_np)
+        angle_deg = angle * 180 / np.pi
+        M = cv2.getRotationMatrix2D((blur_length / 2, blur_length / 2), angle_deg, 1)
+        motion_blur_kernel = np.diag(np.ones(blur_length))
+        motion_blur_kernel = cv2.warpAffine(
+            motion_blur_kernel, M, (blur_length, blur_length), 
+            borderMode=cv2.BORDER_TRANSPARENT
+        )
+        motion_blur_kernel = motion_blur_kernel / blur_length
+        for i in range(images_np.shape[0]):
+            blurred_images_np[i] = cv2.filter2D(
+                images_np[i], 
+                -1, 
+                motion_blur_kernel
+            )
+        return torch.from_numpy(blurred_images_np).permute(0, 3, 1, 2).to(images.device) 
 
 def apply_mixed_blur(images, blur_type='gaussian'):
     """Apply various types of blur"""
