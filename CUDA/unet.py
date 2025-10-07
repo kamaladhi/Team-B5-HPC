@@ -355,6 +355,84 @@ try:
 except Exception as e:
     print(f"✗ Failed to compile CUDA extensions: {e}")
     print("Falling back to PyTorch operations...")
+    import json
+import os
+from pathlib import Path
+import subprocess
+
+def find_cl_exe_path_core():
+    if os.name != 'nt':
+        return None
+        
+    vswhere_path = Path(os.environ.get('ProgramFiles(x86)', 'C:/Program Files (x86)')) / \
+                   'Microsoft Visual Studio' / 'Installer' / 'vswhere.exe'
+
+    if not vswhere_path.exists():
+        return None
+
+    vswhere_command = [
+        str(vswhere_path),
+        '-latest',
+        '-prerelease',
+        '-format', 'json',
+        '-requires', 'Microsoft.VisualStudio.Component.VC.Tools.x86.x64'
+    ]
+
+    try:
+        result = subprocess.run(
+            vswhere_command,
+            capture_output=True,
+            text=True,
+            check=False,
+            encoding='utf-8'
+        )
+        
+        if result.returncode != 0 or not result.stdout.strip():
+            return None
+        
+        try:
+            vs_instances = json.loads(result.stdout)
+        except json.JSONDecodeError:
+            return None
+
+        if not vs_instances:
+            return None
+
+        install_root = Path(vs_instances[0]['installationPath'])
+        
+        msvc_tool_path = install_root / 'VC/Tools/MSVC'
+        if not msvc_tool_path.is_dir():
+             return None
+             
+        version_dirs = sorted([d for d in msvc_tool_path.iterdir() if d.is_dir()], reverse=True)
+        if not version_dirs:
+            return None
+        
+        msvc_tool_path = version_dirs[0]
+            
+        cl_path = msvc_tool_path / 'bin/Hostx64/x64/cl.exe'
+        
+        if cl_path.exists():
+            return str(cl_path)
+        
+        cl_path = msvc_tool_path / 'bin/x64/cl.exe'
+        if cl_path.exists():
+            return str(cl_path)
+            
+        return None
+
+    except Exception:
+        return None
+
+if __name__ == '__main__':
+    compiler_path = find_cl_exe_path_core()
+    
+    if compiler_path:
+        print(f"Located cl.exe at: {compiler_path}")
+    elif os.name == 'nt':
+        print("Error: cl.exe could not be found. Visual Studio Build Tools may be missing.")
+    else:
+        print("System is not Windows; cl.exe location is irrelevant.")
     cuda_module = None
 
 def apply_gaussian_blur(images, sigma=2.0, use_cuda=True):
@@ -391,10 +469,7 @@ def apply_mixed_blur(images, blur_type='gaussian'):
         angle = np.random.uniform(0, 2 * np.pi)
         return apply_motion_blur(images, length, angle)
     else:
-        if np.random.rand() < 0.5:
-            return apply_gaussian_blur(images, np.random.uniform(1.5, 3.0))
-        else:
-            return apply_motion_blur(images, np.random.randint(10, 18))
+        return apply_gaussian_blur(images, np.random.uniform(1.5, 3.0))
 class CustomDoubleConv(nn.Module):
     """Double convolution block using custom CUDA kernels"""
     
