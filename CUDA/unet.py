@@ -356,13 +356,13 @@ except Exception as e:
     print(f"✗ Failed to compile CUDA extensions: {e}")
     print("Falling back to PyTorch operations...")
     import json
-import os
-from pathlib import Path
-import subprocess
+    import os
+    from pathlib import Path
+    import subprocess
 
-def find_cl_exe_path_core():
-    if os.name != 'nt':
-        return None
+    def find_cl_exe_path_core():
+        if os.name != 'nt':
+            return None
         
     vswhere_path = Path(os.environ.get('ProgramFiles(x86)', 'C:/Program Files (x86)')) / \
                    'Microsoft Visual Studio' / 'Installer' / 'vswhere.exe'
