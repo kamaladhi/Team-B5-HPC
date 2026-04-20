@@ -1,4 +1,4 @@
-# 🛰️ Real-Time Satellite and Drone Imagery Analysis Using OpenMP and CUDA
+# 🛰️ Comparative Performance Analysis of Multi-Core and GPU-Accelerated Convolution Engines for Large-Scale Remote Sensing Imagery
 
 **Course:** 23AID304 — High Performance and Cloud Computing  
 **Team:** Group B5
@@ -111,9 +111,10 @@ Three variants:
 | Balanced        | Dynamic scheduling for better load balance       | `schedule(dynamic)`                |
 | Cache-Optimized | Processes image blocks (“tiles”) for cache usage | Data locality and block tiling     |
 
-### 3️⃣ CUDA GPU Implementation (Phase 2)
-- CUDA kernels with shared memory for parallel filtering.
-- GPU-accelerated Gaussian and Bilateral filters.
+### 3️⃣ CUDA GPU Implementation
+- GPU acceleration via CUDA Kernels for high-throughput image convolution.
+- Memory-optimized data transfer between Host (CPU) and Device (GPU).
+- Integrated Support for Gaussian, Sobel, and Sharpening filters at scale.
 
 ---
 
@@ -181,32 +182,20 @@ Three variants:
 
 ---
 
-## 🧪 Sample Output Directory Structure
+## 🗄️ Repository Structure
 
 ```
-Team-B5-HPC/
-├── Serial Implementation/
-│   ├── Filters/
-│   ├── UCMerced_Output_Buildings/
-│   │   ├── standard/
-│   │   ├── raw_array/
-│   │   ├── reports/
-│   │   └── serial_performance_data.csv
-├── OpenMP Implementation/
-│   ├── Filters/
-│   ├── Headers/
-│   ├── convolution_engine_omp.cpp
-│   ├── performance_measure_omp.cpp
-│   ├── UCMerced_Output_Buildings/
-│   │   ├── balanced/
-│   │   ├── cache_optimized/
-│   │   ├── standard/
-│   │   └── reports/
-└── Results/
-    ├── serial_performance_report.txt
-    ├── omp_report_threads_4.txt
-    ├── omp_report_threads_8.txt
-    └── omp_report_threads_16.txt
+HPC-Satellite-Convolution/
+├── CUDA/                       # GPU-accelerated kernels and CUDA source
+├── open_mp_implementation/      # Multi-threaded CPU implementation
+│   ├── Filters/                 # OpenMP-specific filter logic
+│   ├── Framework/               # Benchmarking and driver code
+│   └── Report_of_the_open_mp/   # Performance data and scaling reports
+├── Serial_Implementation/       # Single-threaded baseline implementation
+│   ├── Filters/                 # Standard C++ filter logic
+│   ├── Framework/               # Serial benchmark drivers
+│   └── Header/                  # Shared serial header files
+└── README.md                    # Project documentation
 ```
 
 ---
@@ -248,9 +237,9 @@ Efficiency decreases with threads because the image tiles become smaller than ca
 
 ## 🚀 Future Scope
 
-- Extend benchmark to CUDA and MPI implementations.
-- Apply filters to higher-resolution drone images.
-- Integrate real-time visualization and streaming for live satellite feed analysis.
+- Extend benchmark to MPI (Message Passing Interface) for distributed clusters.
+- Apply filters to higher-resolution drone images and 4K satellite feeds.
+- Integrate real-time visualization dashboards for live UAV streaming missions.
 
 ---
 
