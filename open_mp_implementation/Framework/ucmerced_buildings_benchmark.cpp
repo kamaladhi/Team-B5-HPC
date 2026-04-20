@@ -559,9 +559,10 @@ int main(int argc, char* argv[]) {
     std::cout << "WITH ALL CONVOLUTION VARIANTS" << std::endl;
     std::cout << "========================================\n" << std::endl;
 
-    // Default paths - modify these as needed
-    std::string inputFolder = "C:\\Users\\DELL\\Downloads\\UCMerced_LandUse\\UCMerced_LandUse\\Images\\buildings";
-    std::string outputFolder = "C:\\Users\\DELL\\hpc project\\Team-B5-HPC\\open_mp_implementation\\UCMerced_Output_Buildings";
+    // Default paths: repo-relative for portability. Override via argv[1] and argv[2] if needed.
+    // Assumes the dataset is available under a data/ directory at the project root.
+    std::string inputFolder  = "data/UCMerced_LandUse/Images/buildings";
+    std::string outputFolder = "output/UCMerced_Output_Buildings";
 
     // Parse command line arguments
     if (argc > 1) inputFolder = argv[1];
